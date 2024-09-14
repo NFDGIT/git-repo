@@ -8,7 +8,13 @@
            revision="master"
            sync-j="4" />
 
-  <project name="app/wanma.git" path="./" groups="app">
+<!--   <project name="app/wanma.git" path="./" groups="app">
+    <linkfile src="README.md" dest="README.md"></linkfile>
+  </project> -->
+  <project name="app/app_base.git" path="./plugins" groups="app">
+    <linkfile src="README.md" dest="README.md"></linkfile>
+  </project>
+    <project name="app/b-client.git" path="./plugins" groups="app">
     <linkfile src="README.md" dest="README.md"></linkfile>
   </project>
 </manifest>
