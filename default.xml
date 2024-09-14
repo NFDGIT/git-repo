@@ -2,10 +2,10 @@
 <manifest>
   <remote  name="origin"
            fetch="https://github.com/NFDGIT"
-           revision="main"
+           revision="master"
            review="https://github.com/NFDGIT" />
   <default remote="origin"
-           revision="main"
+           revision="master"
            sync-j="4" />
 
   <project name="git-repo.git" path="./" groups="app">
