@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="https://github.com/NFDGIT"
+           fetch="ssh://git@gitlab.wanmazhaopin.com:2222"
            revision="master"
-           review="https://github.com/NFDGIT" />
+           review="ssh://git@gitlab.wanmazhaopin.com:2222" />
   <default remote="origin"
            revision="master"
            sync-j="4" />
 
-  <project name="git-repo.git" path="./" groups="app">
+  <project name="app/wanma.git" path="./" groups="app">
     <linkfile src="README.md" dest="README.md"></linkfile>
   </project>
 </manifest>
