@@ -5,7 +5,7 @@
        revision="master"
        review="ssh://git@gitlab.wanmazhaopin.com:2222" />
   <default remote="origin"
-           revision="master"
+           revision="main"
        sync-j="4" />
 
   <project name="app/wanma.git" path="./" groups="app">
